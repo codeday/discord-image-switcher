@@ -141,7 +141,7 @@ export async function compositeGif(images: Buffer[]): Promise<Buffer> {
 
   encoder.start();
   encoder.setQuality(75);
-  encoder.setDelay(1000);
+  encoder.setDelay(600);
   encoder.setRepeat(0);
 
   // Create canvas for drawing images on
