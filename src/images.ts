@@ -75,7 +75,7 @@ async function refreshImageCache() {
       operationName: null,
       variables: {
         pastEventCutoff: isoDate(-60 * 60 * 24),
-        futureEventCutoff: isoDate(60 * 60 * 24 * 3),
+        futureEventCutoff: isoDate(60 * 60 * 24 * 7),
       },
       query: QUERY,
     }),
